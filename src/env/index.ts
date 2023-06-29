@@ -1,16 +1,24 @@
+import { config } from 'dotenv'
 import { z } from 'zod'
 
+if(process.env.NODE_ENV === 'test') {
+	config({ path: '.env.test' })
+} else {
+	config()
+}
+
 const envSchema = z.object({
-	NODE_ENV: z.enum(['development', 'production', 'test']).default('production'),
-	PORT: z.number().default(2020),
+	NODE_ENV: z.enum(['development', 'test', 'production']).default('production'),
+	DATABASE_URL: z.string(),
+	PORT: z.number().default(3333),
 })
 
 const _env = envSchema.safeParse(process.env)
 
-if (_env.success === false) {
-	console.error('Invarioments variables incorrect!', _env.error.format())
+if(_env.success === false) {
+	console.error('Enviroment variables are incorret. ', _env.error.format())
 
-	throw new Error('Invarioments variables incorrect!')
+	throw new Error('Enviroment variables are incorret.')
 }
 
 export const env = _env.data

@@ -45,7 +45,7 @@ export async function mealsRoutes(app :FastifyInstance) {
 		return reply.status(201).send()
 	})
 
-	app.get("/", {
+	app.get('/', {
 		preHandler: [ checkSessionIdExists ]
 	},async (req, reply) => {
 		const session_id = req.cookies.sessionId

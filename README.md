@@ -28,5 +28,5 @@ Fazendo iso em todos os casos, registro do usuário, login, criar refeição, ed
 #Rodar aplicação
 npm install -> Instalar todas as dependencias da aplicação <br>
 npm run dev -> Inicar o servidor <br>
-npm run knex -- (comandos do próprio knex, [clique aqui para ir no site](https://knexjs.org/) ) <br>
+npm run knex -- (comandos do próprio knex, [clique aqui para ir no site](https://knexjs.org/) -> Comando que irá manusear o banco de dados da aplicação (sqlite) <br>
 npm run test -> Para testar todos os testes realizados para visualizar se todas as rotas estão funcionando 

@@ -26,7 +26,7 @@ Foi usado apenas teste de e2e (end-to-end), que consiste em testar a aplicação
 Fazendo iso em todos os casos, registro do usuário, login, criar refeição, editar refeição, e excluir refeição.
 
 #Rodar aplicação
-npm install -> Instalar todas as dependencias da aplicação
-npm run dev -> Inicar o servidor
-npm run knex -- (comandos do próprio knex, [clique aqui para ir no site](https://knexjs.org/) )
-npm run test -> Para testar todos os testes realizados para visualizar se todas as rotas estão funcionando
+npm install -> Instalar todas as dependencias da aplicação <br>
+npm run dev -> Inicar o servidor <br>
+npm run knex -- (comandos do próprio knex, [clique aqui para ir no site](https://knexjs.org/) ) <br>
+npm run test -> Para testar todos os testes realizados para visualizar se todas as rotas estão funcionando 

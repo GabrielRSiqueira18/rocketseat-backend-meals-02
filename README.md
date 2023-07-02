@@ -11,3 +11,22 @@
 - [x] Refeições só podem ser criadas/editadas/excluidas apenas pelos usuários logados
 - [x] Deve ser possível indentificar o usuário entre as requisições
 
+## Detalhes da aplicação
+
+#Bibliotecas usadas
+Fastify: micro-framework para melhorar a criar um servidor http e usar requisões como um todo.
+Knex: queryBuilder para usar banco de dados como mais facilidades
+zod: validar dados da aplicação
+
+# Cookie 
+Foi usado cookie para ter acesso ao usuário entre as requições, uando a biblioteca do próprio fastify @fastify/cookie, para usar esta ferramente.
+
+# Teste
+Foi usado apenas teste de e2e (end-to-end), que consiste em testar a aplicação como um todo, como testes que verifica quando o usuário irá registrar colocando passo a passo de que como o usuário irá relizar o login. <br>
+Fazendo iso em todos os casos, registro do usuário, login, criar refeição, editar refeição, e excluir refeição.
+
+#Rodar aplicação
+npm install -> Instalar todas as dependencias da aplicação
+npm run dev -> Inicar o servidor
+npm run knex -- (comandos do próprio knex, [clique aqui para ir no site](https://knexjs.org/) )
+npm run test -> Para testar todos os testes realizados para visualizar se todas as rotas estão funcionando

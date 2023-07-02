@@ -1,8 +1,13 @@
-# Aplicação Backed Nodejs
+# Aplicação Backed Nodejs Meals
 
-## LF
+## RF
 - [x] Deve ser possível registrar um usuário <br>
 - [x] Deve ser possível o usuárioo logar <br>
-- [x] Deve ser possível apenas criar uma refeição quando o usuário estiver logado <br>
-- [x] Deve ser possível editar apenas a refeição do usuário <br>
-- [x] Deve ser possível excluir apeans a refeição do usuário <br>
+- [x] Deve ser possível criar uma refeição <br>
+- [x] Deve ser possível editar uma refeição <br>
+- [x] Deve ser possível excluir uma refeição <br>
+
+## RN
+- [x] Refeições só podem ser criadas/editadas/excluidas apenas pelos usuários logados
+- [x] Deve ser possível indentificar o usuário entre as requisições
+

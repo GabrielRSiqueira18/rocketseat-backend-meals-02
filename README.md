@@ -13,7 +13,7 @@
 
 ## Detalhes da aplicação
 
-# Bibliotecas usadas: <br>
+# Bibliotecas usadas 
 Fastify: micro-framework para melhorar a criar um servidor http e usar requisões como um todo. <br>
 Knex: queryBuilder para usar banco de dados como mais facilidades <br>
 zod: validar dados da aplicação <br>

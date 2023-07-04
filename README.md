@@ -13,10 +13,10 @@
 
 ## Detalhes da aplicação
 
-#Bibliotecas usadas
-Fastify: micro-framework para melhorar a criar um servidor http e usar requisões como um todo.
-Knex: queryBuilder para usar banco de dados como mais facilidades
-zod: validar dados da aplicação
+# Bibliotecas usadas: <br>
+Fastify: micro-framework para melhorar a criar um servidor http e usar requisões como um todo. <br>
+Knex: queryBuilder para usar banco de dados como mais facilidades <br>
+zod: validar dados da aplicação <br>
 
 # Cookie 
 Foi usado cookie para ter acesso ao usuário entre as requições, uando a biblioteca do próprio fastify @fastify/cookie, para usar esta ferramente.

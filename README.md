@@ -2,7 +2,7 @@
 
 ## RF
 - [x] Deve ser possível registrar um usuário <br>
-- [x] Deve ser possível o usuárioo logar <br>
+- [x] Deve ser possível o usuário logar <br>
 - [x] Deve ser possível criar uma refeição <br>
 - [x] Deve ser possível editar uma refeição <br>
 - [x] Deve ser possível excluir uma refeição <br>
